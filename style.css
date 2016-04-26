@@ -1,0 +1,188 @@
+body, html{
+    font-family: sans-serif;
+    font-size: .89em;
+    background-color: aqua;
+}
+
+.metmd1b{
+    width: 300px;
+    height: 300px;
+    overflow: hidden;
+    float: left;
+    margin: 1em;
+    padding: 0;
+}
+.metmd1b img{
+    height: 300px;
+    width: 300px;
+}
+
+.metmd1b article {
+    position: relative;
+    margin-top: 0;
+    background-color: rgba(255,255,255,0.8);
+    height: 300px;
+    padding: 1em;
+   /* transition: margin-top 1s; */
+    animation: Stuiterenbeneden 1s forwards;
+}
+@keyframes StuiterenBoven{
+    0%{margin-top: 0}
+    25%{margin-top: -320px}
+    38%{margin-top: -156px}
+    50%{margin-top: -320px}
+    63%{margin-top: -285px}
+    75%{margin-top: -320px}
+    88%{margin-top: -300px}
+    100%{margin-top: -320px}
+}
+
+@keyframes Stuiterenbeneden{
+    0%{margin-top: -320px}
+    25%{margin-top: 0}
+    38%{margin-top: -156px}
+    50%{margin-top: 0}
+    63%{margin-top: -75px}
+    75%{margin-top: 0}
+    88%{margin-top: -30px}
+    100%{margin-top: 0}
+}
+
+.metmd1b:hover article{
+    animation: StuiterenBoven 1s forwards; 
+}
+    
+footer{
+    clear: left;
+}
+
+#button {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background-color: #F7819F;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+#button:hover {
+    background-color: #FF0040; 
+    color: white;
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button2 {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background-color: aquamarine;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+#button2:hover {
+    background-color: darkblue; 
+    color: white;
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button3 {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background-color: #CC2EFA;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+#button3:hover {
+    background-color: #4C0B5F; 
+    color: white;
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button4 {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background-color: #A9BCF5;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+#button4:hover {
+    background-color: #045FB4; 
+    color: white;
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#button5 {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background-color: #F7FE2E;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+#button5:hover {
+    background-color: #FFFF00; 
+    color: white;
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#button6 {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background-color: #A4A4A4;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+#button6:hover {
+    background-color: #585858; 
+    color: white;
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+#button7 {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background-color: #FA5858;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+#button7:hover {
+    background-color: #FF0000; 
+    color: white;
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+
+#button8 {
+    -webkit-transition-duration: 0.4s; 
+    transition-duration: 0.4s;
+    background-color: #00FF00;
+    border: 2px solid;
+    border-radius: 25px;
+}
+
+#button8:hover {
+    background-color: #0B610B; 
+    color: white;
+    border: 2px solid;
+    border-radius: 25px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
+}
