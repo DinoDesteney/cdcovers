@@ -8,4 +8,4 @@ Mijn training bevat de volgende albums:
 * Charlie Puth: Nine track mind
 * Afrojack: forget the world
 
-Dit is de website: [Mijn site] ()
+Dit is de website van de covers: [Mijn site] (http://21188.hosts.ma-cloud.nl/bewijzen/periode3/fop/les6/index.html)
